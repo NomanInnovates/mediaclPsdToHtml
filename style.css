@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blu{
+    color:#03cbcd;
+}
+.home{
+    padding: 0 10%;
+    margin: auto;
+    background-image:
+    linear-gradient(to right,rgba(0, 172, 217, .1),rgba(105, 267, 251, .1)),
+    url(im/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.home-content{
+    padding: 2rem;
+}
+.home-heading{
+    padding: 30px 10px;
+}
+.home-content{
+    width:400px;
+    padding: 50px 0px;
+}
+.home-button{
+    width:500px ;
+}
+.btun{
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #03cbcd;
+    color: #fff;
+    border-radius: 2px;
+}
+.btn-out{
+    text-decoration: none;
+    padding: 5px 20px;
+    border:1px solid  #03cbcd;
+    color: #03cbcd;
+    border-radius: 2px;
+}
+.patient{
+    background: #fff;
+    box-shadow: 0px 0px 20px rgb(185, 215, 240);
+    padding-top: 30px;
+    margin: 0 10%;
+}
+.typ{
+    padding: 0 30px;
+}
+
+/* SectionTwo WhyUs */
+.Yus-right{
+    background-position:center !important;
+    background-repeat:no-repeat !important;
+    background-size: contain !important;
+    background: url(im/stethoscope.png);
+    height: 600px;
+}
+
+.box{
+    height: 300px;
+    width: 270px !important;
+
+}
+.Y-imgs{
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    padding:2rem;
+    z-index: 1;
+    
+}
+.Y-img1{
+    background: url(im/stethoscope-icon.png);
+    background-color: rgb(204,247,248);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Y-img2{
+    background: url(im/ambulance.png);
+    background-color: #f5c1db;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Y-img3{
+    background: url(im/first-aid-kit.png);
+    background-color: #bbd0f8;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Y-img4{
+    background: url(im/medicine-icon.png);
+    background-color: #f4e2a9;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Experties{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content:space-between;
+    column-gap: 10px;
+}
+
+/* Section three (speciality) */
+.spcl{
+    background: url(im/speciality.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.specialBox{
+    border-radius: 10px;
+    /* margin:5px; */
+    padding:10px 10px;
+}
+.specialBox1{
+    background: #11b6b8;
+}
+
+.specialBox1,.specialBox4,.specialBox2,.specialBox3{
+    box-shadow: 0px 0px 50px #d6d6f9;
+}
+.special-img{
+    padding: 20px 0;
+}
+
+/* section four (((appointment)))*/
+
+.appointment-heading{
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.centered-form{
+    margin: auto;
+    padding: 4rem 1rem;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: #effbfb;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;
+    width: 40rem;
+}
+@media  screen and (max-width:768px){
+    .centered-form{
+    width: 400px;
+    margin: auto;
+}
+}
+.centered-form .panel input{
+    height: 3rem;
+    margin-bottom:2rem;
+
+}
+.appointment-Btn-container{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.appointment-btn{
+    padding:0rem 10rem;
+    margin-bottom: 100px;
+}
+
+/* drSection */
+
+.dr-blu{
+    height:235px;
+    width: 260px;
+    background: #3fc8ca;
+    position: absolute;
+    border-radius: 1rem;
+}
+.dr-img{
+    margin-top: -4rem;
+    position: relative;
+    height: 300px;
+}
+.pro-icon{
+    border: 1px solid #555;
+    border-radius: 50%;
+    cursor: pointer;
+    padding:3px;
+    color: #555;
+    transition: 0.3s;
+
+}
+.pro-icon:hover{
+    color: black;
+}
+.drs-cards{
+    margin-top: 50px;
+}
+@media(max-width:768px){
+    .dr-colum{
+        margin-left: 50%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        transform: translate(-50%);
+    }
+}
+.carousel-item{
+    padding:5% 15%;
+}
+.indicat{
+    background-color: #03cbcd !important;
+}
+.carousel-indicators li {
+    background-color: #03cbcd !important;
+}
