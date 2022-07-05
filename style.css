@@ -58,7 +58,8 @@
 
 /* SectionTwo WhyUs */
 .YusContent {
-    padding:40px 0 0 10%
+    padding:40px 0 0 10%;
+    max-width: 98%;
 }
 .Yus-right{
     background-position:center !important;
